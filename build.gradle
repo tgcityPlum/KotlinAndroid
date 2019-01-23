@@ -13,11 +13,10 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0-alpha03'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.60"
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.2.15'//微信资源混淆插件
         classpath 'com.gfd.plugin:PluginSwitch:1.0.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
